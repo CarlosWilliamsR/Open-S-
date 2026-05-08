@@ -1,0 +1,826 @@
+
+> opens-frontend@1.0.0 dev
+> astro dev --port 5000 --host
+
+[vite] connected.
+01:33:26 [types] Generated 0ms
+ astro  v6.2.1 ready in 947 ms
+┃ Local    http://localhost:5000/
+┃ Network  http://192.168.0.221:5000/
+01:33:26 watching for file changes...
+01:34:28 [200] /asistente 43ms
+01:36:36 [200] /admin 24ms
+01:36:36 [404] /health 3ms
+01:36:50 [200] /asistente 3ms
+01:36:57 [200] /asistente 2ms
+01:40:54 [watch] /src/styles/global.css
+01:40:55 [200] /asistente 42ms
+01:41:39 [watch] /src/styles/global.css
+01:41:40 [200] /asistente 20ms
+01:41:53 [watch] /src/layouts/BaseLayout.astro?astro&type=style&index=0&lang.css, /src/styles/global.css
+01:41:54 [200] /asistente 28ms
+01:42:35 [watch] src/pages/asistente.astro
+01:42:36 [200] /asistente 20ms
+01:43:20 [200] /asistente 2ms
+01:45:00 [watch] src/pages/asistente.astro
+01:45:01 [200] /asistente 20ms
+01:45:38 [200] /asistente 2ms
+01:53:26 [watch] /src/styles/global.css
+01:53:27 [200] /asistente 26ms
+01:53:42 [watch] src/pages/asistente.astro
+01:53:43 [200] /asistente 18ms
+01:54:03 [watch] /src/styles/global.css
+01:54:04 [200] /asistente 19ms
+01:55:04 [200] /asistente 2ms
+01:58:33 [watch] src/services/patientService.js
+01:58:33 [watch] /src/styles/global.css
+01:58:34 [200] /asistente 4ms
+01:58:53 [watch] src/services/patientService.js
+01:58:53 [watch] /src/styles/global.css
+01:58:54 [200] /asistente 4ms
+02:05:37 [200] /paciente 18ms
+02:05:51 [200] / 19ms
+02:05:57 [200] /paciente 2ms
+02:06:06 [200] /paciente 2ms
+02:06:10 [200] /asistente 2ms
+02:06:13 [200] /doctor 20ms
+02:06:14 [404] /health 1ms
+02:06:22 [200] /asistente 2ms
+02:09:04 [200] /admin 32ms
+02:09:04 [404] /health 1ms
+02:09:32 [200] /asistente 2ms
+02:10:59 [200] /admin 1ms
+02:10:59 [404] /health 1ms
+02:12:15 [watch] src/services/solanaService.js
+02:12:15 [watch] /src/styles/global.css
+02:12:16 [200] /admin 5ms
+02:12:16 [404] /health 0ms
+02:12:57 [watch] /src/styles/global.css
+02:12:58 [200] /admin 3ms
+02:12:58 [404] /health 1ms
+02:13:12 [watch] src/services/patientService.js
+02:13:12 [watch] /src/styles/global.css
+02:13:13 [200] /admin 3ms
+02:13:13 [404] /health 0ms
+02:13:19 [watch] src/pages/asistente.astro
+02:13:21 [200] /admin 3ms
+02:13:21 [404] /health 0ms
+02:13:35 [watch] src/pages/asistente.astro
+02:13:36 [200] /admin 3ms
+02:13:36 [404] /health 1ms
+02:14:03 [watch] src/pages/paciente.astro
+02:14:04 [200] /admin 11ms
+02:14:04 [404] /health 0ms
+02:14:06 [watch] src/components/Navbar.astro
+02:14:07 [200] /admin 25ms
+02:14:07 [404] /health 1ms
+02:14:25 [ERROR] [vite] http proxy error: /api/v1/connectivity
+Error: socket hang up
+    at Socket.socketOnEnd (node:_http_client:617:25)
+    at Socket.emit (node:events:521:24)
+    at endReadableNT (node:internal/streams/readable:1729:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+02:15:08 [200] /admin 1ms
+02:15:08 [404] /health 1ms
+02:15:19 [200] /asistente 20ms
+02:15:30 [200] /pacientes 19ms
+02:15:38 [200] /admin 2ms
+02:15:38 [404] /health 1ms
+02:15:43 [200] / 1ms
+02:18:31 [200] /asistente 3ms
+02:18:35 [200] / 2ms
+02:18:38 [200] /asistente 2ms
+02:18:40 [200] /admin 2ms
+02:18:40 [404] /health 0ms
+02:20:56 [watch] src/layouts/BaseLayout.astro
+02:20:57 [200] /admin 40ms
+02:20:57 [404] /health 1ms
+02:21:22 [watch] /src/styles/global.css
+02:21:23 [200] /admin 3ms
+02:21:23 [404] /health 0ms
+02:22:15 [watch] src/pages/admin.astro
+02:22:16 [200] /admin 22ms
+02:23:07 [watch] src/pages/asistente.astro
+02:23:08 [200] /admin 4ms
+02:23:32 [watch] /src/styles/global.css
+02:23:33 [200] /admin 3ms
+02:23:47 [watch] src/services/patientService.js
+02:23:47 [watch] /src/styles/global.css
+02:23:48 [200] /admin 3ms
+02:23:58 [watch] src/pages/asistente.astro
+02:23:59 [200] /admin 3ms
+02:26:04 [200] /pacientes 25ms
+02:26:22 [200] /asistente 24ms
+02:26:22 [ERROR] [vite] Internal server error: Transform failed with 1 error:
+/home/david/Descargas/OpenS Demo/OpenS/frontend/src/pages/asistente.astro?astro&type=script&index=0&lang.ts:139:0: ERROR: Unexpected "}"
+  Plugin: vite:esbuild
+  File: /home/david/Descargas/OpenS Demo/OpenS/frontend/src/pages/asistente.astro?astro&type=script&index=0&lang.ts:139:0
+  
+  Unexpected "}"
+  137 |         showToast('Error al generar PDF', 'error');
+  138 |      });
+  139 |  });
+      |  ^
+  140 |  
+  141 |  audioSummaryBtn?.addEventListener('click', async () => {
+  
+      at failureErrorWithLog (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:1748:15)
+      at /home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:1017:50
+      at responseCallbacks.<computed> (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:884:9)
+      at handleIncomingPacket (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:939:12)
+      at Socket.readFromStdout (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:862:7)
+      at Socket.emit (node:events:509:20)
+      at addChunk (node:internal/streams/readable:564:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:515:3)
+      at Readable.push (node:internal/streams/readable:395:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+02:26:26 [200] /asistente 2ms
+02:26:26 [ERROR] [vite] Internal server error: Transform failed with 1 error:
+/home/david/Descargas/OpenS Demo/OpenS/frontend/src/pages/asistente.astro?astro&type=script&index=0&lang.ts:139:0: ERROR: Unexpected "}"
+  Plugin: vite:esbuild
+  File: /home/david/Descargas/OpenS Demo/OpenS/frontend/src/pages/asistente.astro?astro&type=script&index=0&lang.ts:139:0
+  
+  Unexpected "}"
+  137 |         showToast('Error al generar PDF', 'error');
+  138 |      });
+  139 |  });
+      |  ^
+  140 |  
+  141 |  audioSummaryBtn?.addEventListener('click', async () => {
+  
+      at failureErrorWithLog (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:1748:15)
+      at /home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:1017:50
+      at responseCallbacks.<computed> (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:884:9)
+      at handleIncomingPacket (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:939:12)
+      at Socket.readFromStdout (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:862:7)
+      at Socket.emit (node:events:509:20)
+      at addChunk (node:internal/streams/readable:564:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:515:3)
+      at Readable.push (node:internal/streams/readable:395:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+02:26:27 [200] /asistente 2ms
+02:26:27 [ERROR] [vite] Internal server error: Transform failed with 1 error:
+/home/david/Descargas/OpenS Demo/OpenS/frontend/src/pages/asistente.astro?astro&type=script&index=0&lang.ts:139:0: ERROR: Unexpected "}"
+  Plugin: vite:esbuild
+  File: /home/david/Descargas/OpenS Demo/OpenS/frontend/src/pages/asistente.astro?astro&type=script&index=0&lang.ts:139:0
+  
+  Unexpected "}"
+  137 |         showToast('Error al generar PDF', 'error');
+  138 |      });
+  139 |  });
+      |  ^
+  140 |  
+  141 |  audioSummaryBtn?.addEventListener('click', async () => {
+  
+      at failureErrorWithLog (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:1748:15)
+      at /home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:1017:50
+      at responseCallbacks.<computed> (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:884:9)
+      at handleIncomingPacket (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:939:12)
+      at Socket.readFromStdout (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:862:7)
+      at Socket.emit (node:events:509:20)
+      at addChunk (node:internal/streams/readable:564:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:515:3)
+      at Readable.push (node:internal/streams/readable:395:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+02:26:27 [200] /asistente 2ms
+02:26:27 [ERROR] [vite] Internal server error: Transform failed with 1 error:
+/home/david/Descargas/OpenS Demo/OpenS/frontend/src/pages/asistente.astro?astro&type=script&index=0&lang.ts:139:0: ERROR: Unexpected "}"
+  Plugin: vite:esbuild
+  File: /home/david/Descargas/OpenS Demo/OpenS/frontend/src/pages/asistente.astro?astro&type=script&index=0&lang.ts:139:0
+  
+  Unexpected "}"
+  137 |         showToast('Error al generar PDF', 'error');
+  138 |      });
+  139 |  });
+      |  ^
+  140 |  
+  141 |  audioSummaryBtn?.addEventListener('click', async () => {
+  
+      at failureErrorWithLog (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:1748:15)
+      at /home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:1017:50
+      at responseCallbacks.<computed> (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:884:9)
+      at handleIncomingPacket (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:939:12)
+      at Socket.readFromStdout (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:862:7)
+      at Socket.emit (node:events:509:20)
+      at addChunk (node:internal/streams/readable:564:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:515:3)
+      at Readable.push (node:internal/streams/readable:395:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+02:26:27 [200] /asistente 2ms
+02:26:27 [ERROR] [vite] Internal server error: Transform failed with 1 error:
+/home/david/Descargas/OpenS Demo/OpenS/frontend/src/pages/asistente.astro?astro&type=script&index=0&lang.ts:139:0: ERROR: Unexpected "}"
+  Plugin: vite:esbuild
+  File: /home/david/Descargas/OpenS Demo/OpenS/frontend/src/pages/asistente.astro?astro&type=script&index=0&lang.ts:139:0
+  
+  Unexpected "}"
+  137 |         showToast('Error al generar PDF', 'error');
+  138 |      });
+  139 |  });
+      |  ^
+  140 |  
+  141 |  audioSummaryBtn?.addEventListener('click', async () => {
+  
+      at failureErrorWithLog (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:1748:15)
+      at /home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:1017:50
+      at responseCallbacks.<computed> (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:884:9)
+      at handleIncomingPacket (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:939:12)
+      at Socket.readFromStdout (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:862:7)
+      at Socket.emit (node:events:509:20)
+      at addChunk (node:internal/streams/readable:564:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:515:3)
+      at Readable.push (node:internal/streams/readable:395:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+02:26:27 [200] /asistente 2ms
+02:26:27 [ERROR] [vite] Internal server error: Transform failed with 1 error:
+/home/david/Descargas/OpenS Demo/OpenS/frontend/src/pages/asistente.astro?astro&type=script&index=0&lang.ts:139:0: ERROR: Unexpected "}"
+  Plugin: vite:esbuild
+  File: /home/david/Descargas/OpenS Demo/OpenS/frontend/src/pages/asistente.astro?astro&type=script&index=0&lang.ts:139:0
+  
+  Unexpected "}"
+  137 |         showToast('Error al generar PDF', 'error');
+  138 |      });
+  139 |  });
+      |  ^
+  140 |  
+  141 |  audioSummaryBtn?.addEventListener('click', async () => {
+  
+      at failureErrorWithLog (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:1748:15)
+      at /home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:1017:50
+      at responseCallbacks.<computed> (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:884:9)
+      at handleIncomingPacket (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:939:12)
+      at Socket.readFromStdout (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:862:7)
+      at Socket.emit (node:events:509:20)
+      at addChunk (node:internal/streams/readable:564:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:515:3)
+      at Readable.push (node:internal/streams/readable:395:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+02:26:28 [200] /asistente 2ms
+02:26:28 [ERROR] [vite] Internal server error: Transform failed with 1 error:
+/home/david/Descargas/OpenS Demo/OpenS/frontend/src/pages/asistente.astro?astro&type=script&index=0&lang.ts:139:0: ERROR: Unexpected "}"
+  Plugin: vite:esbuild
+  File: /home/david/Descargas/OpenS Demo/OpenS/frontend/src/pages/asistente.astro?astro&type=script&index=0&lang.ts:139:0
+  
+  Unexpected "}"
+  137 |         showToast('Error al generar PDF', 'error');
+  138 |      });
+  139 |  });
+      |  ^
+  140 |  
+  141 |  audioSummaryBtn?.addEventListener('click', async () => {
+  
+      at failureErrorWithLog (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:1748:15)
+      at /home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:1017:50
+      at responseCallbacks.<computed> (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:884:9)
+      at handleIncomingPacket (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:939:12)
+      at Socket.readFromStdout (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:862:7)
+      at Socket.emit (node:events:509:20)
+      at addChunk (node:internal/streams/readable:564:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:515:3)
+      at Readable.push (node:internal/streams/readable:395:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+02:26:28 [200] /asistente 2ms
+02:26:28 [ERROR] [vite] Internal server error: Transform failed with 1 error:
+/home/david/Descargas/OpenS Demo/OpenS/frontend/src/pages/asistente.astro?astro&type=script&index=0&lang.ts:139:0: ERROR: Unexpected "}"
+  Plugin: vite:esbuild
+  File: /home/david/Descargas/OpenS Demo/OpenS/frontend/src/pages/asistente.astro?astro&type=script&index=0&lang.ts:139:0
+  
+  Unexpected "}"
+  137 |         showToast('Error al generar PDF', 'error');
+  138 |      });
+  139 |  });
+      |  ^
+  140 |  
+  141 |  audioSummaryBtn?.addEventListener('click', async () => {
+  
+      at failureErrorWithLog (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:1748:15)
+      at /home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:1017:50
+      at responseCallbacks.<computed> (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:884:9)
+      at handleIncomingPacket (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:939:12)
+      at Socket.readFromStdout (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:862:7)
+      at Socket.emit (node:events:509:20)
+      at addChunk (node:internal/streams/readable:564:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:515:3)
+      at Readable.push (node:internal/streams/readable:395:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+02:26:28 [200] /asistente 2ms
+02:26:29 [ERROR] [vite] Internal server error: Transform failed with 1 error:
+/home/david/Descargas/OpenS Demo/OpenS/frontend/src/pages/asistente.astro?astro&type=script&index=0&lang.ts:139:0: ERROR: Unexpected "}"
+  Plugin: vite:esbuild
+  File: /home/david/Descargas/OpenS Demo/OpenS/frontend/src/pages/asistente.astro?astro&type=script&index=0&lang.ts:139:0
+  
+  Unexpected "}"
+  137 |         showToast('Error al generar PDF', 'error');
+  138 |      });
+  139 |  });
+      |  ^
+  140 |  
+  141 |  audioSummaryBtn?.addEventListener('click', async () => {
+  
+      at failureErrorWithLog (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:1748:15)
+      at /home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:1017:50
+      at responseCallbacks.<computed> (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:884:9)
+      at handleIncomingPacket (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:939:12)
+      at Socket.readFromStdout (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:862:7)
+      at Socket.emit (node:events:509:20)
+      at addChunk (node:internal/streams/readable:564:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:515:3)
+      at Readable.push (node:internal/streams/readable:395:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+02:26:42 [200] /asistente 2ms
+02:26:42 [ERROR] [vite] Internal server error: Transform failed with 1 error:
+/home/david/Descargas/OpenS Demo/OpenS/frontend/src/pages/asistente.astro?astro&type=script&index=0&lang.ts:139:0: ERROR: Unexpected "}"
+  Plugin: vite:esbuild
+  File: /home/david/Descargas/OpenS Demo/OpenS/frontend/src/pages/asistente.astro?astro&type=script&index=0&lang.ts:139:0
+  
+  Unexpected "}"
+  137 |         showToast('Error al generar PDF', 'error');
+  138 |      });
+  139 |  });
+      |  ^
+  140 |  
+  141 |  audioSummaryBtn?.addEventListener('click', async () => {
+  
+      at failureErrorWithLog (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:1748:15)
+      at /home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:1017:50
+      at responseCallbacks.<computed> (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:884:9)
+      at handleIncomingPacket (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:939:12)
+      at Socket.readFromStdout (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:862:7)
+      at Socket.emit (node:events:509:20)
+      at addChunk (node:internal/streams/readable:564:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:515:3)
+      at Readable.push (node:internal/streams/readable:395:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+02:26:46 [200] /asistente 3ms
+02:26:46 [ERROR] [vite] Internal server error: Transform failed with 1 error:
+/home/david/Descargas/OpenS Demo/OpenS/frontend/src/pages/asistente.astro?astro&type=script&index=0&lang.ts:139:0: ERROR: Unexpected "}"
+  Plugin: vite:esbuild
+  File: /home/david/Descargas/OpenS Demo/OpenS/frontend/src/pages/asistente.astro?astro&type=script&index=0&lang.ts:139:0
+  
+  Unexpected "}"
+  137 |         showToast('Error al generar PDF', 'error');
+  138 |      });
+  139 |  });
+      |  ^
+  140 |  
+  141 |  audioSummaryBtn?.addEventListener('click', async () => {
+  
+      at failureErrorWithLog (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:1748:15)
+      at /home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:1017:50
+      at responseCallbacks.<computed> (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:884:9)
+      at handleIncomingPacket (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:939:12)
+      at Socket.readFromStdout (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:862:7)
+      at Socket.emit (node:events:509:20)
+      at addChunk (node:internal/streams/readable:564:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:515:3)
+      at Readable.push (node:internal/streams/readable:395:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+02:26:48 [200] /asistente 2ms
+02:26:48 [ERROR] [vite] Internal server error: Transform failed with 1 error:
+/home/david/Descargas/OpenS Demo/OpenS/frontend/src/pages/asistente.astro?astro&type=script&index=0&lang.ts:139:0: ERROR: Unexpected "}"
+  Plugin: vite:esbuild
+  File: /home/david/Descargas/OpenS Demo/OpenS/frontend/src/pages/asistente.astro?astro&type=script&index=0&lang.ts:139:0
+  
+  Unexpected "}"
+  137 |         showToast('Error al generar PDF', 'error');
+  138 |      });
+  139 |  });
+      |  ^
+  140 |  
+  141 |  audioSummaryBtn?.addEventListener('click', async () => {
+  
+      at failureErrorWithLog (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:1748:15)
+      at /home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:1017:50
+      at responseCallbacks.<computed> (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:884:9)
+      at handleIncomingPacket (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:939:12)
+      at Socket.readFromStdout (/home/david/Descargas/OpenS Demo/OpenS/frontend/node_modules/esbuild/lib/main.js:862:7)
+      at Socket.emit (node:events:509:20)
+      at addChunk (node:internal/streams/readable:564:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:515:3)
+      at Readable.push (node:internal/streams/readable:395:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+02:28:16 [watch] src/pages/asistente.astro
+02:28:16 [200] /asistente 44ms
+02:28:30 [watch] src/pages/asistente.astro
+02:28:30 [200] /asistente 27ms
+02:29:09 [ERROR] ReferenceError: BaseLayout is not defined
+    at eval (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:10:107)
+    at index (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:20:12)
+    at callComponentAsTemplateResultOrResponse (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:105:31)
+    at renderToAsyncIterable (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:137:32)
+    at renderPage (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:85:77)
+    at lastNext (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:295:67)
+    at async callMiddleware (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:15:10)
+    at async RenderContext.render (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:329:73)
+    at async AstroServerApp.render (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:366:20)
+    at async run (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:169:26)
+02:29:09 [ERROR] BaseLayout is not defined
+  Stack trace:
+    at /home/david/Descargas/OpenS Demo/OpenS/frontend/eval at runInlinedModule (file:/home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9
+    [...] See full stack trace in the browser, or rerun with --verbose.
+02:29:15 [200] /admin 1ms
+02:29:16 [200] /pacientes 2ms
+02:29:17 [200] /asistente 2ms
+02:29:22 [ERROR] ReferenceError: BaseLayout is not defined
+    at eval (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:10:107)
+    at index (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:20:12)
+    at callComponentAsTemplateResultOrResponse (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:105:31)
+    at renderToAsyncIterable (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:137:32)
+    at renderPage (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:85:77)
+    at lastNext (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:295:67)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async callMiddleware (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:15:10)
+    at async RenderContext.render (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:329:73)
+    at async AstroServerApp.render (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:366:20)
+02:29:22 [ERROR] BaseLayout is not defined
+  Stack trace:
+    at eval (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:10:107)
+    [...] See full stack trace in the browser, or rerun with --verbose.
+02:30:26 [watch] src/pages/asistente.astro
+02:30:27 [ERROR] ReferenceError: BaseLayout is not defined
+    at eval (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:10:107)
+    at index (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:20:12)
+    at callComponentAsTemplateResultOrResponse (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:105:31)
+    at renderToAsyncIterable (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:137:32)
+    at renderPage (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:85:77)
+    at lastNext (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:295:67)
+    at async callMiddleware (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:15:10)
+    at async RenderContext.render (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:329:73)
+    at async AstroServerApp.render (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:366:20)
+    at async run (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:169:26)
+02:30:27 [ERROR] BaseLayout is not defined
+  Stack trace:
+    at eval (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:10:107)
+    [...] See full stack trace in the browser, or rerun with --verbose.
+02:30:46 [watch] /src/styles/global.css
+02:30:46 [ERROR] ReferenceError: BaseLayout is not defined
+    at eval (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:10:107)
+    at index (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:20:12)
+    at callComponentAsTemplateResultOrResponse (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:105:31)
+    at renderToAsyncIterable (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:137:32)
+    at renderPage (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:85:77)
+    at lastNext (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:295:67)
+    at async callMiddleware (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:15:10)
+    at async RenderContext.render (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:329:73)
+    at async AstroServerApp.render (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:366:20)
+    at async run (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:169:26)
+02:30:46 [ERROR] BaseLayout is not defined
+  Stack trace:
+    at eval (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:10:107)
+    [...] See full stack trace in the browser, or rerun with --verbose.
+02:31:22 [watch] /src/styles/global.css
+02:31:22 [ERROR] ReferenceError: BaseLayout is not defined
+    at eval (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:9:107)
+    at index (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:20:12)
+    at callComponentAsTemplateResultOrResponse (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:105:31)
+    at renderToAsyncIterable (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:137:32)
+    at renderPage (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:85:77)
+    at lastNext (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:295:67)
+    at async callMiddleware (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:15:10)
+    at async RenderContext.render (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:329:73)
+    at async AstroServerApp.render (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:366:20)
+    at async run (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:169:26)
+02:31:22 [ERROR] BaseLayout is not defined
+  Stack trace:
+    at eval (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:9:107)
+    [...] See full stack trace in the browser, or rerun with --verbose.
+02:31:33 [watch] src/layouts/BaseLayout.astro
+02:31:34 [ERROR] ReferenceError: BaseLayout is not defined
+    at eval (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:9:107)
+    at index (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:20:12)
+    at callComponentAsTemplateResultOrResponse (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:105:31)
+    at renderToAsyncIterable (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:137:32)
+    at renderPage (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:85:77)
+    at lastNext (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:295:67)
+    at async callMiddleware (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:15:10)
+    at async RenderContext.render (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:329:73)
+    at async AstroServerApp.render (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:366:20)
+    at async run (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:169:26)
+02:31:34 [ERROR] BaseLayout is not defined
+  Stack trace:
+    at eval (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:9:107)
+    [...] See full stack trace in the browser, or rerun with --verbose.
+02:32:20 [ERROR] ReferenceError: BaseLayout is not defined
+    at eval (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:9:107)
+    at index (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:20:12)
+    at callComponentAsTemplateResultOrResponse (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:105:31)
+    at renderToAsyncIterable (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:137:32)
+    at renderPage (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:85:77)
+    at lastNext (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:295:67)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async callMiddleware (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:15:10)
+    at async RenderContext.render (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:329:73)
+    at async AstroServerApp.render (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:366:20)
+02:32:20 [ERROR] BaseLayout is not defined
+  Stack trace:
+    at eval (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:9:107)
+    [...] See full stack trace in the browser, or rerun with --verbose.
+02:32:20 [ERROR] ReferenceError: BaseLayout is not defined
+    at eval (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:9:107)
+    at index (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:20:12)
+    at callComponentAsTemplateResultOrResponse (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:105:31)
+    at renderToAsyncIterable (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:137:32)
+    at renderPage (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:85:77)
+    at lastNext (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:295:67)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async callMiddleware (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:15:10)
+    at async RenderContext.render (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:329:73)
+    at async AstroServerApp.render (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:366:20)
+02:32:20 [ERROR] BaseLayout is not defined
+  Stack trace:
+    at eval (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:9:107)
+    [...] See full stack trace in the browser, or rerun with --verbose.
+02:32:21 [ERROR] ReferenceError: BaseLayout is not defined
+    at eval (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:9:107)
+    at index (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:20:12)
+    at callComponentAsTemplateResultOrResponse (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:105:31)
+    at renderToAsyncIterable (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:137:32)
+    at renderPage (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:85:77)
+    at lastNext (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:295:67)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async callMiddleware (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:15:10)
+    at async RenderContext.render (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:329:73)
+    at async AstroServerApp.render (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:366:20)
+02:32:21 [ERROR] BaseLayout is not defined
+  Stack trace:
+    at eval (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:9:107)
+    [...] See full stack trace in the browser, or rerun with --verbose.
+02:32:24 [ERROR] ReferenceError: BaseLayout is not defined
+    at eval (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:9:107)
+    at index (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:20:12)
+    at callComponentAsTemplateResultOrResponse (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:105:31)
+    at renderToAsyncIterable (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:137:32)
+    at renderPage (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:85:77)
+    at lastNext (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:295:67)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async callMiddleware (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:15:10)
+    at async RenderContext.render (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:329:73)
+    at async AstroServerApp.render (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:366:20)
+02:32:24 [ERROR] BaseLayout is not defined
+  Stack trace:
+    at eval (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:9:107)
+    [...] See full stack trace in the browser, or rerun with --verbose.
+02:32:25 [ERROR] ReferenceError: BaseLayout is not defined
+    at eval (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:9:107)
+    at index (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:20:12)
+    at callComponentAsTemplateResultOrResponse (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:105:31)
+    at renderToAsyncIterable (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:137:32)
+    at renderPage (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:85:77)
+    at lastNext (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:295:67)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async callMiddleware (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:15:10)
+    at async RenderContext.render (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:329:73)
+    at async AstroServerApp.render (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:366:20)
+02:32:25 [ERROR] BaseLayout is not defined
+  Stack trace:
+    at eval (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:9:107)
+    [...] See full stack trace in the browser, or rerun with --verbose.
+02:32:25 [ERROR] ReferenceError: BaseLayout is not defined
+    at eval (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:9:107)
+    at index (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:20:12)
+    at callComponentAsTemplateResultOrResponse (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:105:31)
+    at renderToAsyncIterable (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:137:32)
+    at renderPage (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:85:77)
+    at lastNext (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:295:67)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async callMiddleware (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:15:10)
+    at async RenderContext.render (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:329:73)
+    at async AstroServerApp.render (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:366:20)
+02:32:25 [ERROR] BaseLayout is not defined
+  Stack trace:
+    at eval (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:9:107)
+    [...] See full stack trace in the browser, or rerun with --verbose.
+[vite] program reload
+[vite] An error happened during full reload
+Failed to load url astro:server-app.js (resolved id: astro:server-app.js). Does the file exist?
+Error: Failed to load url astro:server-app.js (resolved id: astro:server-app.js). Does the file exist?
+    at loadAndTransform (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/chunks/config.js:22663:33)
+02:35:10 [ERROR] ReferenceError: BaseLayout is not defined
+    at eval (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:9:107)
+    at index (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:20:12)
+    at callComponentAsTemplateResultOrResponse (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:105:31)
+    at renderToAsyncIterable (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:137:32)
+    at renderPage (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:85:77)
+    at lastNext (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:295:67)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async callMiddleware (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:15:10)
+    at async RenderContext.render (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:329:73)
+    at async AstroServerApp.render (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:366:20)
+02:35:10 [ERROR] BaseLayout is not defined
+  Stack trace:
+    at eval (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:9:107)
+    [...] See full stack trace in the browser, or rerun with --verbose.
+[vite] An error happened during full reload
+Failed to load url file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/src/pages/paciente.astro (resolved id: /home/david/Descargas/OpenS Demo/OpenS/frontend/src/pages/paciente.astro) in  virtual:astro:page:src/pages/paciente@_@astro. Does the file exist?
+Error: Failed to load url file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/src/pages/paciente.astro (resolved id: /home/david/Descargas/OpenS Demo/OpenS/frontend/src/pages/paciente.astro) in  virtual:astro:page:src/pages/paciente@_@astro. Does the file exist?
+    at loadAndTransform (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/chunks/config.js:22663:33)
+    at async fetchModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/chunks/config.js:33997:15)
+    at async handleInvoke (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/chunks/config.js:25837:21)
+    at async EventEmitter.listenerForInvokeHandler (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/chunks/config.js:25892:13)
+[vite] program reload
+02:35:10 [ERROR] ReferenceError: BaseLayout is not defined
+    at eval (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:9:107)
+    at index (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:20:12)
+    at callComponentAsTemplateResultOrResponse (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:105:31)
+    at renderToAsyncIterable (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:137:32)
+    at renderPage (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:85:77)
+    at lastNext (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:295:67)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async callMiddleware (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:15:10)
+    at async RenderContext.render (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:329:73)
+    at async AstroServerApp.render (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:366:20)
+02:35:10 [ERROR] BaseLayout is not defined
+  Stack trace:
+    at eval (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:9:107)
+    [...] See full stack trace in the browser, or rerun with --verbose.
+02:35:11 [ERROR] ReferenceError: BaseLayout is not defined
+    at eval (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:9:107)
+    at index (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:20:12)
+    at callComponentAsTemplateResultOrResponse (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:105:31)
+    at renderToAsyncIterable (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:137:32)
+    at renderPage (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:85:77)
+    at lastNext (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:295:67)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async callMiddleware (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:15:10)
+    at async RenderContext.render (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:329:73)
+    at async AstroServerApp.render (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:366:20)
+02:35:11 [ERROR] BaseLayout is not defined
+  Stack trace:
+    at eval (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:9:107)
+    [...] See full stack trace in the browser, or rerun with --verbose.
+02:35:11 [ERROR] ReferenceError: BaseLayout is not defined
+    at eval (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:9:107)
+    at index (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:20:12)
+    at callComponentAsTemplateResultOrResponse (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:105:31)
+    at renderToAsyncIterable (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:137:32)
+    at renderPage (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:85:77)
+    at lastNext (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:295:67)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async callMiddleware (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:15:10)
+    at async RenderContext.render (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:329:73)
+    at async AstroServerApp.render (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:366:20)
+02:35:11 [ERROR] BaseLayout is not defined
+  Stack trace:
+    at eval (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:9:107)
+    [...] See full stack trace in the browser, or rerun with --verbose.
+[vite] program reload
+02:35:11 [ERROR] ReferenceError: BaseLayout is not defined
+    at eval (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:9:107)
+    at index (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:20:12)
+    at callComponentAsTemplateResultOrResponse (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:105:31)
+    at renderToAsyncIterable (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:137:32)
+    at renderPage (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:85:77)
+    at lastNext (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:295:67)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async callMiddleware (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:15:10)
+    at async RenderContext.render (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:329:73)
+    at async AstroServerApp.render (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:366:20)
+02:35:11 [ERROR] BaseLayout is not defined
+  Stack trace:
+    at eval (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:9:107)
+    [...] See full stack trace in the browser, or rerun with --verbose.
+02:35:12 [ERROR] ReferenceError: BaseLayout is not defined
+    at eval (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:9:107)
+    at index (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:20:12)
+    at callComponentAsTemplateResultOrResponse (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:105:31)
+    at renderToAsyncIterable (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:137:32)
+    at renderPage (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:85:77)
+    at lastNext (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:295:67)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async callMiddleware (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:15:10)
+    at async RenderContext.render (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:329:73)
+    at async AstroServerApp.render (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:366:20)
+02:35:12 [ERROR] BaseLayout is not defined
+  Stack trace:
+    at eval (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:9:107)
+    [...] See full stack trace in the browser, or rerun with --verbose.
+02:35:12 [ERROR] ReferenceError: BaseLayout is not defined
+    at eval (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:9:107)
+    at index (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:20:12)
+    at callComponentAsTemplateResultOrResponse (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:105:31)
+    at renderToAsyncIterable (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:137:32)
+    at renderPage (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:85:77)
+    at lastNext (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:295:67)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async callMiddleware (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:15:10)
+    at async RenderContext.render (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:329:73)
+    at async AstroServerApp.render (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:366:20)
+02:35:12 [ERROR] BaseLayout is not defined
+  Stack trace:
+    at eval (eval at runInlinedModule (file:///home/david/Descargas/OpenS%20Demo/OpenS/frontend/node_modules/vite/dist/node/module-runner.js:913:9), <anonymous>:9:107)
+    [...] See full stack trace in the browser, or rerun with --verbose.
+02:35:30 [watch] /src/styles/global.css
+02:35:31 [200] / 47ms
+02:35:31 [200] / 3ms
+02:35:31 [200] / 3ms
+02:35:31 [200] / 3ms
+02:35:31 [200] / 6ms
+[vite] program reload
+02:35:38 [200] / 15ms
+[vite] program reload
+02:35:38 [200] / 14ms
+02:35:39 [200] / 1ms
+02:37:57 [watch] src/layouts/BaseLayout.astro
+02:37:57 [200] / 36ms
+02:37:58 [200] / 2ms
+02:38:03 [watch] /src/styles/global.css
+02:38:23 [watch] src/components/Navbar.astro
+02:38:23 [200] / 3ms
+02:38:24 [200] / 1ms
+02:38:36 [watch] src/components/ResilienceMonitor.astro
+02:38:36 [200] / 4ms
+02:38:37 [200] / 1ms
+02:39:01 [watch] /src/styles/global.css
+02:39:01 [200] / 3ms
+02:39:02 [200] / 2ms
+02:39:14 [watch] /src/styles/global.css
+02:39:14 [200] / 3ms
+02:39:15 [200] / 1ms
+02:39:27 [watch] /src/styles/global.css
+02:39:27 [200] / 3ms
+02:39:28 [200] / 2ms
+02:39:35 [watch] src/components/SolanaStatus.astro
+02:39:35 [200] / 3ms
+02:39:36 [200] / 1ms
+[vite] program reload
+02:39:43 [200] / 10ms
+02:39:43 [200] / 2ms
+[vite] program reload
+02:39:44 [200] / 7ms
+02:40:22 [watch] src/pages/asistente.astro
+02:40:22 [200] / 3ms
+02:40:23 [200] / 2ms
+[vite] program reload
+02:40:29 [200] / 17ms
+[vite] program reload
+02:40:30 [200] / 7ms
+02:41:29 [200] /asistente 44ms
+02:42:13 [200] /pacientes 38ms
+02:42:20 [200] /admin 26ms
+02:42:38 [200] / 1ms
+02:45:04 [watch] src/layouts/BaseLayout.astro
+02:45:05 [200] / 36ms
+02:45:05 [200] / 2ms
+02:45:10 [watch] /src/styles/global.css
+02:45:24 [watch] src/components/Navbar.astro
+02:45:25 [200] / 4ms
+02:45:25 [200] / 2ms
+02:45:45 [watch] /src/styles/global.css
+02:45:46 [200] / 3ms
+02:45:46 [200] / 1ms
+02:46:01 [watch] /src/styles/global.css
+02:46:02 [200] / 2ms
+02:46:02 [200] / 1ms
+02:46:10 [watch] /src/styles/global.css
+02:46:11 [200] / 2ms
+02:46:11 [200] / 1ms
+02:46:21 [200] / 1ms
+02:46:21 [watch] src/components/ResilienceMonitor.astro
+02:46:21 [200] / 3ms
+02:46:22 [200] / 2ms
+02:46:29 [watch] src/components/SolanaStatus.astro
+02:46:30 [200] / 3ms
+02:46:30 [200] / 2ms
+02:46:45 [watch] src/pages/asistente.astro
+02:46:46 [200] / 3ms
+02:46:46 [200] / 1ms
+02:46:57 [watch] /src/styles/global.css
+02:46:58 [200] / 31ms
+02:46:58 [200] / 2ms
+02:47:05 [watch] src/pages/doctor.astro
+02:47:06 [200] / 2ms
+02:47:06 [200] / 1ms
+[vite] program reload
+[vite] program reload
+02:47:14 [200] / 8ms
+02:47:14 [200] / 3ms
+02:47:28 [200] /admin 31ms
+02:48:01 [200] /pacientes 26ms
+02:48:05 [200] /asistente 28ms
+02:53:25 [watch] src/services/patientService.js
+02:53:25 [watch] /src/styles/global.css
+02:53:25 [watch] src/services/patientService.js
+02:53:25 [watch] /src/styles/global.css
+02:53:26 [200] / 5ms
+02:53:26 [200] /asistente 7ms
+02:53:38 [watch] /src/styles/global.css
+02:53:38 [watch] /src/styles/global.css
+02:53:39 [200] / 4ms
+02:53:39 [200] /asistente 60ms
+02:53:53 [watch] src/pages/asistente.astro
+02:53:53 [watch] src/pages/asistente.astro
+02:53:54 [200] / 7ms
+02:53:54 [200] /asistente 34ms
+02:54:43 [watch] src/pages/asistente.astro
+02:54:44 [200] / 14ms
+02:54:44 [200] /asistente 71ms
+02:54:54 [watch] src/pages/asistente.astro
+02:54:55 [200] / 16ms
+02:54:55 [200] /asistente 75ms
+[vite] program reload
+[vite] program reload
+02:55:22 [200] / 16ms
+02:55:22 [200] /asistente 20ms
+[vite] program reload
+02:55:45 [200] / 12ms
+02:55:45 [200] /asistente 15ms
+02:56:00 [200] /asistente 3ms

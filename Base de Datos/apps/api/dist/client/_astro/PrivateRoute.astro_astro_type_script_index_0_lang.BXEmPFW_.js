@@ -1,0 +1,1 @@
+import{c as e}from"./auth.service.VKFLja9l.js";const n=document.querySelector("#spinner-container"),t=document.querySelector("#content-container");(async()=>{try{await e.getLoggedUser(),t?.classList.remove("hidden")}catch{location.replace("/login")}finally{n?.remove()}})();
